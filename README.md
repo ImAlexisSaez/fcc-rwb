@@ -5,5 +5,6 @@ Código generado en la visualización activa del curso de *freeCodeCamp* "*Respo
 - [project01](/project01): Learn HTML by Building a Cat Photo App
 - [project02](/project02): Learn Basic CSS by Building a Cafe Menu
 - [project03](/project03): Learn CSS Colors by Building a Set of Colored Markers
+- [project04](/project04): Learn HTML Forms by Building a Registration Form
 
 Curso iniciado el 29 de abril de 2023.
