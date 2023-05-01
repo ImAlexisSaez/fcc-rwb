@@ -54,3 +54,57 @@ Please fill out this form with the required information
 **Step 22**. Certain `type` attribute values come with built-in form validation. For example, `type="email"` requires that the value be a valid email address. Add custom validation to the password `input` element, by adding a `minlength` attribute with a value of `8`. Doing so prevents inputs of less than 8 characters being submitted.
 
 **Step 23**. With `type="password"` you can use the `pattern` attribute to define a regular expression that the password must match to be considered valid. Add a `pattern` attribute to the password `input` element to require the input match: `[a-z0-5]{8,}`. The above is a regular expression which matches eight or more lowercase letters or the digits `0` to `5`. Then, remove the `minlength` attribute, and try it out.
+
+**Step 24**. Let us go to the next part of the registration form. This section will ask for the type of account the user is opening, and will confirm the user has read the terms and conditions. Start by adding three `label` elements to the second `fieldset`.
+
+**Step 25**. Users will be allowed to choose either a `Personal Account` or `Business Account`. To do this, within each of the first two `label` elements, add one `input` element with `type="radio"`.
+
+**Step 26**. For the terms and conditions, add an `input` with a `type` of `checkbox` to the third `label` element. Make this `input` element `required` because users should not sign up without reading the terms and conditions.
+
+**Step 27**. Within each corresponding `label` element, and immediately after the `input` element, add a space and add the following text:
+
+```text
+Personal Account
+Business Account
+I accept the terms and conditions
+```
+
+**Step 28**. You only want one radio input to be selectable at a time. However, the form does not know the radio inputs are related. To relate the radio inputs, give them the same `name` attribute with a value of `account-type`. Now, it is not possible to select both radio inputs at the same time.
+
+**Step 29**. Follow accessibility best practices by linking the `input` elements and the `label` elements in the second `fieldset`. Use `personal-account`, `business-account`, and `terms-and-conditions` as values for the respective `id` attributes.
+
+**Step 30**. To finish this `fieldset` off, link the text `terms and conditions` in the third `label` to the following location:
+
+```text
+<https://www.freecodecamp.org/news/terms-of-service/>
+```
+
+**Step 31**. Moving on to the final `fieldset`. What if you wanted to allow a user to upload a profile picture? Well, the `input` type `file` allows just that. Add a `label` with the text `Upload a profile picture:`, and nest an `input` accepting a file upload.
+
+**Step 32**. Add another `label` after the first, with the text `Input your age (years):`. Then, nest an `input` with the type of `number`. Next, add a `min` attribute to the `input` with a value of `13` because users under the age of 13 should not register. Also, users probably will not be over the age of 120; add a `max` attribute with a value of `120`. Now, if someone tries to submit the form with values outside of the range, a warning will appear, and the form will not submit. Give it a try.
+
+**Step 33**. Adding a dropdown to the form is easy with the `select` element. The `select` element is a container for a group of `option` elements, and the `option` element acts as a label for each dropdown option. Both elements require closing tags. Start by adding a `select` element below the two `label` elements. Then nest 5 `option` elements within the `select` element.
+
+**Step 34**. Nest the `select` element (with its `option` elements) within a `label` element with the text `How did you hear about us?`. The text should come before the `select` element.
+
+**Step 35**. The dropdown options are currently empty. To give them content, add the following text to each subsequent `option` element:
+
+```text
+(select one)
+freeCodeCamp News
+freeCodeCamp YouTube Channel
+freeCodeCamp Forum
+Other
+```
+
+**Step 36**. Submitting the form with an option selected would not send a useful value to the server. As such, each `option` needs to be given a `value` attribute. Without which, the text content of the `option` will be submitted to the server. Give the first `option` a `value` of `""`, and the subsequent `option` elements `value` attributes from `1` to `4`.
+
+**Step 37**. The `textarea` element acts like an `input` element of type `text`, but comes with the added benefit of being able to receive multi-line text, and an initial number of text rows and columns. Users will be able to register with a bio. Add a `label` with the text `Provide a bio:` at the end of the `fieldset`. Add a `textarea` element inside the `label` element. Note that the `textarea` requires a closing tag.
+
+**Step 38**. Link the applicable form elements and their `label` elements together. Use `profile-picture`, `age`, `referrer`, and `bio` as values for the respective `id` attributes.
+
+**Step 39**. The `textarea` appears too small. To give it an initial size, you can add the `rows` and `cols` attributes. Add an initial size of `3` rows and `30` columns.
+
+**Step 40**. To give Campers an idea of what to put in their bio, the `placeholder` attribute is used. The `placeholder` accepts a text value, which is displayed until the user starts typing. Give the `textarea` a `placeholder` of `I like coding on the beach....`.
+
+**Step 41**. With form submissions, it is useful, and good practice, to provide each submittable element with a `name` attribute. This attribute is used to identify the element in the form submission. Give each submittable element a unique `name` attribute of your choosing, except for the two radio inputs.
