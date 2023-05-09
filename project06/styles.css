@@ -1,0 +1,12 @@
+.frame {
+  border: 50px solid black;
+  margin: 20px auto;
+  padding: 50px;
+  width: 500px;
+}
+
+.canvas {
+  background-color: #4d0f00;
+  height: 600px;
+  width: 500px;
+}
