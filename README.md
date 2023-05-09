@@ -7,5 +7,6 @@ Código generado en la visualización activa del curso de *freeCodeCamp* "*Respo
 - [project03](/project03): Learn CSS Colors by Building a Set of Colored Markers
 - [project04](/project04): Learn HTML Forms by Building a Registration Form
 - [project05](/project05): Survey Form
+- [project06](/project06): Learn the CSS Box Model by Building a Rothko Painting
 
 Curso iniciado el 29 de abril de 2023.
