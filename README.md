@@ -8,5 +8,6 @@ Código generado en la visualización activa del curso de *freeCodeCamp* "*Respo
 - [project04](/project04): Learn HTML Forms by Building a Registration Form
 - [project05](/project05): Survey Form
 - [project06](/project06): Learn the CSS Box Model by Building a Rothko Painting
+- [project07](/project07): Learn CSS Flexbox by Building a Photo Gallery
 
 Curso iniciado el 29 de abril de 2023.
