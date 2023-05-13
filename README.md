@@ -10,5 +10,6 @@ Código generado en la visualización activa del curso de *freeCodeCamp* "*Respo
 - [project06](/project06): Learn the CSS Box Model by Building a Rothko Painting
 - [project07](/project07): Learn CSS Flexbox by Building a Photo Gallery
 - [project08](/project08): Learn Typography by Building a Nutrition Label
+- [project09](/project09): Learn Accessibility by Building a Quiz
 
 Curso iniciado el 29 de abril de 2023.
