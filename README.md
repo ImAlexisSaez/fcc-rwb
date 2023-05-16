@@ -11,5 +11,6 @@ Código generado en la visualización activa del curso de *freeCodeCamp* "*Respo
 - [project07](/project07): Learn CSS Flexbox by Building a Photo Gallery
 - [project08](/project08): Learn Typography by Building a Nutrition Label
 - [project09](/project09): Learn Accessibility by Building a Quiz
+- [project10](/project10): Tribute Page
 
 Curso iniciado el 29 de abril de 2023.
