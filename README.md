@@ -12,5 +12,6 @@ Código generado en la visualización activa del curso de *freeCodeCamp* "*Respo
 - [project08](/project08): Learn Typography by Building a Nutrition Label
 - [project09](/project09): Learn Accessibility by Building a Quiz
 - [project10](/project10): Tribute Page
+- [project11](/project11): Learn More About CSS Pseudo Selectors By Building A Balance Sheet
 
 Curso iniciado el 29 de abril de 2023.
