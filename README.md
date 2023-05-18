@@ -13,5 +13,6 @@ Código generado en la visualización activa del curso de *freeCodeCamp* "*Respo
 - [project09](/project09): Learn Accessibility by Building a Quiz
 - [project10](/project10): Tribute Page
 - [project11](/project11): Learn More About CSS Pseudo Selectors By Building A Balance Sheet
+- [project12](/project12): Learn Intermediate CSS by Building a Picasso Painting
 
 Curso iniciado el 29 de abril de 2023.
